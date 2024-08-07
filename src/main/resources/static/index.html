@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Poker</title>
+</head>
+<body>
+<h1>Welcome to Deck of Card Game</h1>
+<div>
+  <form method="get" action="/shuffle">
+      Please enter the number of participants in the game:
+    <input type="number" name="num" required="required" min="1" max="10" oninput="this.value=this.value.replace(/\D/g);">
+    <input type="submit" value="确认">
+  </form>
+</div>
+</body>
+</html>
